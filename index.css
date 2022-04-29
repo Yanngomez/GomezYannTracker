@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+       
+    background-image: linear-gradient(to right top, #7a5469, #785371, #72537a, #695483, #5a568c, #4f649f, #3c73af, #1282bd, #00a1d3, #00bfe2, #1fddec, #5ffbf1);
+}
+
+
+/*
+
+Style our app according to the provided design!
+
+green color -> #5f9341
+
+*/
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #7f00ff;
+    margin-bottom: 4px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+button {
+    background: #dbd81d;
+    color: white;
+    
+    border: 1px solid #010405;
+    border-radius: 30px;
+    font-weight: bold;
+    height: 27px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#delete-btn {
+    background: #7dee00;
+    color: white;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+a {
+    color: #ffffff;
+}
+
+button:hover, a:hover, #delete-btn:hover{
+    background-color: rgb(41, 7, 68);
+}
